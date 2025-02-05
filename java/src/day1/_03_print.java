@@ -23,6 +23,13 @@ public class _03_print {
 		System.out.println(3.9*5.72);
 		System.out.println(10/3); // 정수 나눗셈의 결과는 몫을 나타낸다.
 		System.out.println(10/3.0); // 피연산자중 실수가 하나라도 있으면 결과값은 실수로 출력된다. 
+		
+		System.out.println("");
+		
+		System.out.println("덧셈 결과는 : " + 3 + 5); // 상수값을 연결할 땐 + 를 사용함
+		System.out.println("덧셈 결과는 : " + (3 + 5));
+		System.out.println("뺄셈 결과는 : " + (3 - 5));
+		System.out.println("곱셈 결과는 : " + (3 * 5) + "입니다."); // + : 연결 문자 - : 대시문자
 
 	}
 
