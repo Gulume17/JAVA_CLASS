@@ -122,7 +122,7 @@ public class _01_Operator {
 		
 		// 삼항조건연산자
 		int seven = 7;
-		String result3 = seven %2 == 0 ? "짝수" : "홀수"; // %2 == 0 (짝수를 구하는 공식) / %2 == 1 (홀수를 구하는 공식)
+		String result3 = seven %2 == 0 ? "짝수" : "홀수"; // %2 == 0 (짝수를 구하는 공식) 
 		System.out.println("해당 숫자는 " + result3 + "입니다."); // false (홀수 출력)
 		
 		
