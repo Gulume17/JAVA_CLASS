@@ -2,7 +2,7 @@ package day5;
 
 import java.util.Scanner;
 
-public class _01_NestingIf {
+public class _01_Nestingif {
 
 	public static void main(String[] args) {
 		/*
