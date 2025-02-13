@@ -1,12 +1,13 @@
 package day7;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class _04_ArrayOrder {
 
 	public static void main(String[] args) {
 		
-		// 정렬 
+		// 오름차순 정렬
 		int[] arr = {1,6,2,3,10,7,4,5,8,9};
 		int temp = 0; // 숫자를 저장하는 임시저장소, 두 값을 바꿔야 할 때 잠시 여기다 넣을거임!
 		
@@ -25,7 +26,7 @@ public class _04_ArrayOrder {
 			System.out.print(arr[i] + " ");
 		}
 		
-		//sort 메소드로 정렬
+		//sort 메소드로 오름차순 정렬
 		
 		System.out.println("\n");
 		
@@ -36,7 +37,17 @@ public class _04_ArrayOrder {
 		System.out.println("정렬 후 배열 : " + Arrays.toString(arr2));
 		
 		
+		// 내림차순 정렬
+		Integer[] arr3 = {1,6,2,3,10,7,4,5,8,9};
+		System.out.println("내림차순 정렬 전 배열 : " + Arrays.toString(arr3));
+		Arrays.sort(arr3,Comparator.reverseOrder());
+		System.out.println("내림차순 정렬 후 배열 : " + Arrays.toString(arr3));
+		
+		
+		
 
 	}
 
 }
+
+
